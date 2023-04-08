@@ -1,0 +1,206 @@
+.page {
+  width: 210mm;
+  height: auto;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 10mm 20mm;
+
+  .section-divider {
+    border-top: 2px solid black;
+    margin: 20px 0;
+  }
+
+  .header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .name {
+      flex-basis: 100%;
+      text-align: center;
+      font-family: Arial, sans-serif;
+      font-size: 20pt;
+      font-weight: bold;
+    }
+
+    .info-item {
+      display: flex;
+      align-items: center;
+      padding: 10px;
+
+      .info-icon {
+        width: 25px;
+        height: 25px;
+        margin-right: 5px;
+      }
+    }
+  }
+
+  .links-section {
+    display: flex;
+
+    .section-title {
+      font-size: 18pt;
+      flex-basis: 25%;
+    }
+
+    .section-content {
+      display: flex;
+      flex-wrap: wrap;
+      flex-basis: 75%;
+
+      .link-item {
+        margin: 5px;
+      }
+    }
+  }
+
+  .profile-section {
+    display: flex;
+
+    .section-title {
+      font-size: 18pt;
+      flex-basis: 25%;
+    }
+
+    .profile-summary {
+      flex-basis: 75%;
+      font-size: 14pt;
+      margin-bottom: 20px;
+    }
+  }
+
+  .work-section {
+    display: flex;
+    flex-wrap: wrap;
+
+    .section-title {
+      font-size: 18pt;
+      flex-basis: 100%;
+    }
+
+    .work {
+      display: flex;
+      margin-top: 20px;
+
+      .work-duration {
+        font-size: 12pt;
+        flex-basis: 25%;
+        align-self: center;
+      }
+
+      .work-content {
+        flex-basis: 75%;
+
+        .work-title {
+          font-size: 16pt;
+        }
+
+        .work-responsibilities {
+          .responsibility {
+            margin: 10px;
+          }
+        }
+      }
+    }
+  }
+
+  .education-section {
+    display: flex;
+    flex-wrap: wrap;
+
+    .section-title {
+      font-size: 18pt;
+      flex-basis: 100%;
+    }
+
+    .education {
+      display: flex;
+      margin-top: 20px;
+
+      .duration {
+        font-size: 12pt;
+        flex-basis: 25%;
+        align-self: center;
+      }
+
+      .content {
+        flex-basis: 75%;
+
+        .title {
+          font-size: 16pt;
+        }
+
+        .courses {
+          .course {
+            margin: 10px;
+          }
+        }
+      }
+    }
+  }
+
+  .skills-section {
+    display: flex;
+
+    .section-title {
+      font-size: 18pt;
+      flex-basis: 25%;
+    }
+
+    .section-content {
+      flex-basis: 75%;
+      display: flex;
+      flex-wrap: wrap;
+
+      .item {
+        margin: 5px;
+      }
+    }
+  }
+
+  .certificates-section {
+    display: flex;
+    flex-wrap: wrap;
+
+    .section-title {
+      font-size: 18pt;
+      flex-basis: 100%;
+    }
+
+    .certificate {
+      display: flex;
+      margin-top: 20px;
+      flex-basis: 100%;
+
+      .duration {
+        font-size: 12pt;
+        flex-basis: 25%;
+        align-self: center;
+      }
+
+      .name {
+        flex-basis: 75%;
+      }
+    }
+  }
+
+  .hobbies-section {
+    display: flex;
+
+    .section-title {
+      font-size: 18pt;
+      flex-basis: 25%;
+    }
+
+    .section-content {
+      flex-basis: 75%;
+      display: flex;
+      flex-wrap: wrap;
+
+      .item {
+        margin: 5px;
+      }
+    }
+  }
+}
