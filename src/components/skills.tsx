@@ -4,6 +4,8 @@ const data = [
   'Node.js',
   'Express.js',
   'MongoDB',
+  'Postgresql',
+  'Type ORM',
   'React.js',
   'Redux',
   'Material UI',
