@@ -27,7 +27,9 @@ export const Education = () => {
               {item.program} at {item.school}
             </div>
             <div>
-              <p>Following are my main subjects in this degree program:</p>
+              <p style={{ margin: '10px 0 0 10px' }}>
+                Following are my main subjects in this degree program:
+              </p>
               <ul className='courses'>
                 {item.courses.map((course) => (
                   <li className='course'>{course}</li>

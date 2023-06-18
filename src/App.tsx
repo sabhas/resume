@@ -16,11 +16,11 @@ function App() {
       <div className='section-divider'></div>
       <Profile />
       <div className='section-divider'></div>
+      <Skills />
+      <div className='section-divider'></div>
       <Work />
       <div className='section-divider'></div>
       <Education />
-      <div className='section-divider'></div>
-      <Skills />
       <div className='section-divider'></div>
       <Certificates />
       <div className='section-divider'></div>

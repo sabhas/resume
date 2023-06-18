@@ -3,11 +3,16 @@
   height: auto;
   margin: 0 auto;
   box-sizing: border-box;
-  padding: 10mm 20mm;
+  padding: 5mm 5mm;
 
   .section-divider {
     border-top: 2px solid black;
-    margin: 20px 0;
+    margin: 10px 0;
+  }
+
+  .section-title {
+    font-size: 18pt;
+    flex-basis: 25%;
   }
 
   .header {
@@ -39,11 +44,6 @@
   .links-section {
     display: flex;
 
-    .section-title {
-      font-size: 18pt;
-      flex-basis: 25%;
-    }
-
     .section-content {
       display: flex;
       flex-wrap: wrap;
@@ -58,15 +58,23 @@
   .profile-section {
     display: flex;
 
-    .section-title {
-      font-size: 18pt;
-      flex-basis: 25%;
-    }
-
     .profile-summary {
       flex-basis: 75%;
       font-size: 14pt;
-      margin-bottom: 20px;
+    }
+  }
+
+  .skills-section {
+    display: flex;
+
+    .section-content {
+      flex-basis: 75%;
+      display: flex;
+      flex-wrap: wrap;
+
+      .item {
+        margin: 5px;
+      }
     }
   }
 
@@ -81,7 +89,7 @@
 
     .work {
       display: flex;
-      margin-top: 20px;
+      margin-top: 5px;
 
       .work-duration {
         font-size: 12pt;
@@ -97,8 +105,10 @@
         }
 
         .work-responsibilities {
+          margin-bottom: 0px;
+          margin-top: 5px;
           .responsibility {
-            margin: 10px;
+            margin-top: 10px;
           }
         }
       }
@@ -116,7 +126,6 @@
 
     .education {
       display: flex;
-      margin-top: 20px;
 
       .duration {
         font-size: 12pt;
@@ -132,29 +141,15 @@
         }
 
         .courses {
+          margin: 0 auto;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
           .course {
-            margin: 10px;
+            margin-top: 5px;
+            width: 50%;
           }
         }
-      }
-    }
-  }
-
-  .skills-section {
-    display: flex;
-
-    .section-title {
-      font-size: 18pt;
-      flex-basis: 25%;
-    }
-
-    .section-content {
-      flex-basis: 75%;
-      display: flex;
-      flex-wrap: wrap;
-
-      .item {
-        margin: 5px;
       }
     }
   }
@@ -170,7 +165,7 @@
 
     .certificate {
       display: flex;
-      margin-top: 20px;
+      margin-top: 10px;
       flex-basis: 100%;
 
       .duration {
@@ -187,11 +182,6 @@
 
   .hobbies-section {
     display: flex;
-
-    .section-title {
-      font-size: 18pt;
-      flex-basis: 25%;
-    }
 
     .section-content {
       flex-basis: 75%;
