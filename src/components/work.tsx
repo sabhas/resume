@@ -7,10 +7,8 @@ const data = [
       'Paired with fellow engineers to brainstorm ideas, debug problems and review code.',
       'Adopted best coding practices and delivered highest quality scalable solutions.',
       'Worked with customers to define requirements and troubleshoot issues.',
-      'Contributed in the development and maintenance of sasjs framework',
-      'Tested existing features and fixed bugs.',
-      'Refactored code to comply with clean code principles.',
-      'Resolved user reported issues.'
+      'Contributed in the development and maintenance of <a href="https://github.com/sasjs" target="_blank">SASJS</a> framework.',
+      'Tested, fixed and refactored existing features to upheld coding standards.'
     ]
   }
 ]
@@ -20,13 +18,17 @@ export const Work = () => {
     <div className='work-section'>
       <div className='section-title'>EMPLOYMENT HISTORY</div>
       {data.map((item) => (
-        <div className='work'>
+        <div className='work' key={item.title}>
           <div className='work-duration'>{item.duration}</div>
           <div className='work-content'>
             <div className='work-title'>{item.title}</div>
             <ul className='work-responsibilities'>
-              {item.responsibilities.map((responsibility) => (
-                <li className='responsibility'>{responsibility}</li>
+              {item.responsibilities.map((responsibility, index) => (
+                <li
+                  className='responsibility'
+                  key={index}
+                  dangerouslySetInnerHTML={{ __html: responsibility }}
+                />
               ))}
             </ul>
           </div>
