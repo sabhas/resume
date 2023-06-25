@@ -26,7 +26,7 @@ export const Education = () => {
             <div className='title'>
               {item.program} at {item.school}
             </div>
-            <div>
+            {/* <div>
               <p style={{ margin: '10px 0 0 10px' }}>
                 Following are my main subjects in this degree program:
               </p>
@@ -35,7 +35,7 @@ export const Education = () => {
                   <li className='course'>{course}</li>
                 ))}
               </ul>
-            </div>
+            </div> */}
           </div>
         </div>
       ))}
