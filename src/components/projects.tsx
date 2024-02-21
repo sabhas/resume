@@ -66,7 +66,7 @@ export const Projects = () => {
               {item.title}
               {item.link && (
                 <a href={item.link} target='_blank' rel='noopener noreferrer'>
-                  <img src='/new-tab.svg' />
+                  <img src='new-tab.svg' />
                 </a>
               )}
             </span>
