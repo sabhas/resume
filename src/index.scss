@@ -116,6 +116,10 @@ $flex-basis-right: 80%;
   }
 
   .project-section {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    
     .section-title {
       font-size: 18pt;
       flex-basis: 100%;
@@ -123,7 +127,6 @@ $flex-basis-right: 80%;
 
     .project {
       display: flex;
-      margin-top: 5px;
 
       .project-title {
         font-size: 21px;

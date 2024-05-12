@@ -61,8 +61,14 @@ export const Projects = () => {
   return (
     <div className="project-section">
       <div className="section-title">Projects</div>
-      {data.map((item) => (
-        <div className="project" key={item.title}>
+      {data.map((item, index) => (
+        <div
+          className="project"
+          style={{
+            marginTop: index === 0 ? '-15px' : '',
+          }}
+          key={item.title}
+        >
           <div className="project-title">
             <span>
               {item.title}
