@@ -4,10 +4,10 @@ const data = [
     title: 'NQuiz',
     link: 'https://js.nquiz.io',
     description:
-      'NQuiz is a gamified quiz platform that rewards content creators with Bitcoin (zaps).',
+      'A gamified quiz platform rewarding content creators with Bitcoin (zaps).',
     responsibilities: [
-      'Technologies Used: Typescript, Node.js, Express.js, Nostr, Postgresql, Typeorm, and React.js',
-      'My responsibility is to design DB, implement API, and implement UI with React.js',
+      `<span style="font-weight: bold;"> Technologies Used: </span> Typescript, Node.js, Express.js, Nostr, Postgresql, Typeorm, and React.js`,
+      '<span style="font-weight: bold;"> Responsibilities: </span> Designed database structure, developed APIs, and implemented UI with React.js.',
     ],
   },
   {
@@ -15,24 +15,21 @@ const data = [
     title: 'SASJS Server',
     link: 'https://github.com/sasjs/server',
     description:
-      'It provides a NodeJS wrapper for calling the SAS, Python, Node.js, and R binary executable',
+      'A Node.js wrapper facilitating calls to SAS, Python, Node.js, and R executable binaries.',
     responsibilities: [
-      'Technologies Used: Typescript, Node.js, Express.js, MongoDB, and React.js',
-      'It has a virtual filesystem for storing programs and other content, also the ability to execute Stored Programs from a URL and has REST API with Swagger Docs',
-      'The web component incorporates a Monaco editor for program editing, creation, and saving on a virtual filesystem',
-      'My responsibility is to add new requested features, write unit tests for API endpoints, and fix bugs reported by users',
+      `<span style="font-weight: bold;">Technologies Used:</span> Typescript, Node.js, Express.js, MongoDB, React.js`,
+      '<span style="font-weight: bold;"> Features: </span> Virtual filesystem for program storage, ability to execute Stored Programs from URLs, REST API with Swagger Docs, integrated Monaco editor.',
+      '<span style="font-weight: bold;"> Responsibilities: </span> Added new features, wrote unit tests for APIs, and resolved user-reported bugs.',
     ],
   },
   {
     duration: 'May 2021 - Present',
     title: 'SASJS VSCode-Extension',
     link: 'https://github.com/sasjs/vscode-extension',
-    description: `It's a vs code extension written in Typescript for <a href="https://github.com/sasjs" target="_blank">SASJS</a>-based projects and files containing .sas extension.`,
+    description: `A TypeScript-based VS Code extension tailored for <a href="https://github.com/sasjs" target="_blank">SASJS</a> projects and .sas files.`,
     responsibilities: [
-      'Generate HTML docs from SAS code; Run SAS code; Lint and Format SAS code',
-      'The "syncDirectories" feature lets you map one or more LOCAL (on your laptop) directories with one or more REMOTE (on the SAS server) directories.',
-      'Compile build and deploy SAS programs to remote servers',
-      'My responsibility is to add new requested features and fix bugs reported by users.',
+      '<span style="font-weight: bold;"> Features: </span> HTML documentation generation, SAS code execution, linting, formatting, and syncDirectories capability',
+      '<span style="font-weight: bold;"> Responsibilities: </span> Implemented requested features and addressed user-reported bugs.',
     ],
   },
   {
@@ -40,19 +37,18 @@ const data = [
     title: 'SASJS CLI',
     link: 'https://github.com/sasjs/cli',
     description:
-      'It is a Command-Line Interface to assist with creating, building, and deploying Data Science projects and HTML5 Web Applications on the SAS platform.',
+      'A Command-Line Interface streamlining Data Science projects and HTML5 Web Application deployment on the SAS platform.',
     responsibilities: [
-      'My responsibility is to add new features, write unit tests, and fix bugs reported by users.',
+      '<span style="font-weight: bold;"> Responsibilities: </span> Developed new features, wrote unit tests, and resolved user-reported issues.',
     ],
   },
   {
     duration: 'May 2021 - Present',
     title: 'SASJS Adapter',
     link: 'https://github.com/sasjs/adapter',
-    description:
-      'An adapter for bidirectional SAS® <-> Javascript communication',
+    description: 'Bidirectional SAS® <-> JavaScript communication adapter.',
     responsibilities: [
-      'My responsibility is to add new features, write unit tests, and fix bugs reported by users.',
+      '<span style="font-weight: bold;"> Responsibilities: </span> Added features, conducted unit testing, and addressed user-reported bugs.',
     ],
   },
 ];
