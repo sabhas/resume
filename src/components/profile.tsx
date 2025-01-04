@@ -1,11 +1,13 @@
-const profileSummary =
-  'Experienced software engineer specializing in Node.js and React.js with a strong background in full-stack web development. Proven track record of delivering complex projects on time. Skilled in API development, component-based architecture, and testing frameworks.'
+const summary =
+  'Skilled Full Stack TypeScript Developer with over 4 years of professional experience specializing in React, Node.js, and modern web technologies. ' +
+  'Proficient in designing, developing, and maintaining scalable applications with a focus on user experience and performance. ' +
+  'Adept at collaborating across teams to deliver high-quality, secure, and efficient solutions.';
 
 export const Profile = () => {
   return (
-    <div className='profile-section'>
-      <div className='section-title'>PROFILE</div>
-      <div className='profile-summary'>{profileSummary}</div>
+    <div className="profile-section">
+      <div className="section-title">PROFILE</div>
+      <div className="profile-summary">{summary}</div>
     </div>
-  )
-}
+  );
+};
