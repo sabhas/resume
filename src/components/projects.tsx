@@ -1,5 +1,19 @@
 const data = [
   {
+    duration: 'Jan 2024 - Present',
+    title: 'Sigit',
+    link: 'https://git.nostrdev.com/sigit/sigit.io',
+    description:
+      'An open-source and self-hostable solution for secure document signing and verification',
+    responsibilities: [
+      `<span style="font-weight: bold;">Technologies Used:</span> Typescript, React, Nostr Protocols`,
+      '<span style="font-weight: bold;"> Features: </span> Create, Sign and Verify documents and files. ' +
+        'Documents are encrypted locally and can be accessed only by named recipients. ' +
+        'Choose any number of Signers and Viewers, track status, get notifications on completion.',
+      '<span style="font-weight: bold;"> Responsibilities: </span> Designed and implemented the whole architecture of the app.',
+    ],
+  },
+  {
     duration: 'May 2023 - Present',
     title: 'NQuiz',
     link: 'https://js.nquiz.io',
